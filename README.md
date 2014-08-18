@@ -1,6 +1,6 @@
 # apachelog
 
-Experiments with streaming data over ssh connections
+Stream, process and parse apache logs with node.js
 
 [![build status](https://secure.travis-ci.org/eugeneware/apachelog.png)](http://travis-ci.org/eugeneware/apachelog)
 

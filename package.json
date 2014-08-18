@@ -1,7 +1,7 @@
 {
   "name": "apachelog",
   "version": "0.0.1",
-  "description": "Stream, process and parse apache logs",
+  "description": "Stream, process and parse apache logs with node.js",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha"
