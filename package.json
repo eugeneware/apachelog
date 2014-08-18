@@ -1,0 +1,36 @@
+{
+  "name": "apachelog",
+  "version": "0.0.1",
+  "description": "Stream, process and parse apache logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/apachelog"
+  },
+  "keywords": [
+    "ssh",
+    "scp",
+    "stream",
+    "streams"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/apachelog/issues"
+  },
+  "dependencies": {
+    "ssh2": "^0.3.5",
+    "regexp-escape": "0.0.1",
+    "defunct": "^1.0.1",
+    "weblog": "0.0.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.17.0",
+    "bl": "^0.9.0"
+  }
+}
